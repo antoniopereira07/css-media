@@ -81,3 +81,32 @@ header {
         stroke-width: 3px;
     }
 }
+
+@keyframes wave1 {
+    from {
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes wave2 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes wave3 {
+    from {
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes dash1 {
+    from {
+       stroke-dashoffset: 2000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@import 'player';
